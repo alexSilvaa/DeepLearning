@@ -15,7 +15,7 @@ def safe_div(x, y):
 # Fix this function so that it returns the sum of the three
 # parameters.
 def compute_sum(a, b, c):
-    return a + b - c
+    return a + b + c
 
 
 # Write a function called 'compute_product' which computes the product
