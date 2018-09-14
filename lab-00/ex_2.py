@@ -26,7 +26,7 @@ def find_root(f, df, x0):
             print("Deriv is 0")
             return derivative
             
-        next_x = x - f(x)/derivative
+        next_x = x - (f(x)/derivative)
         print("{} - {}".format(i, x))
 
         if(abs(x - next_x) < 0.0001):
