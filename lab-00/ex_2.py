@@ -35,7 +35,7 @@ def find_root(f, df, x0):
         x = next_x
         i = i + 1 
     
-        if(i == 100):
+        if(i > 100):
             print("Hit max_iterations - abandoning search!")
             return None
 
