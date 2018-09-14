@@ -8,6 +8,7 @@
 def safe_div(x, y):
     if (y == 0):
         return None
+    
     return x / y
 
 
@@ -19,8 +20,8 @@ def compute_sum(a, b, c):
 
 # Write a function called 'compute_product' which computes the product
 # of three numbers.
-def compute_product(a, b, c):
-    return a*b*c
+def compute_product(d, e, f):
+    return d*e*f
 
 
 # The code below provides a way to check that the functions defined in
