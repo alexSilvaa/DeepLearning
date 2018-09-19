@@ -53,9 +53,11 @@ def linear_regression(X, y, eps=0):
 
     # EXERCISE 2: implement Tikhonov regularisation.
     # See lecture handout 1, slide 35.
-    # print("Eps: " + str(eps))
+    print("Eps: " + str(eps))
     #
-    # <add 'eps' times the identity matrix to M>
+    #add 'eps' times the identity matrix to M  
+    I = np.identity(len(M));
+    M = M + eps*I; 
     # Hints:
     # There is a function 'identity' in numpy to generate an identity matrix
     # The 'identity' function takes an integer parameter: the size of the (square) identity matrix
