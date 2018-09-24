@@ -66,7 +66,7 @@ def cross_entropy(w, X, y):
     # avoid taking the log of 0.
     eps = 0.000001
     
-    E = np.sum(-np.log(p + eps))/n
+    E = -(1/n)*np.sum(y*np.log(X) + (1-y)*np.log(1-X))
     # Computation of the cross-entropy can be done in one line using numpy
     # functions log and sum, and perhaps boolean ('mask') indexing.
 
