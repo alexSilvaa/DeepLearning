@@ -75,7 +75,7 @@ def cross_entropy(w, X, y):
     # accumulator as appropriate (using 'math.log').
 
     # Don't forget to return the average rather than the sum.
-    return 0
+    return E
 
 #
 # #### EXERCISE 2 ####
